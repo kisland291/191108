@@ -30,5 +30,7 @@
   + [粗乃丸5](./180504_png05/index.htm)
   + [粗乃丸6](./180504_png06/index.htm)
   + [粗乃丸7](./180504_png07/index.htm)
+  + [粗乃丸8](./180504_png08/index.htm)
+  + [粗乃丸9](./180504_png09/index.htm)
   
 
