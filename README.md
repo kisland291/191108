@@ -28,5 +28,7 @@
   + [粗乃丸3](./180504_png03/index.htm)
   + [粗乃丸4](./180504_png04/index.htm)
   + [粗乃丸5](./180504_png05/index.htm)
+  + [粗乃丸6](./180504_png06/index.htm)
+  + [粗乃丸7](./180504_png07/index.htm)
   
 
