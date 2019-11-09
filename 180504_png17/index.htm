@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, max-age=0, must-revalidate">
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+body{}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded",function(e){
+	console.log( "DOMContentLoaded" );
+	var bb=document.querySelector("body");
+	//console.log(bb);
+});
+
+$(function(){});
+$(()=>{
+	console.log('jq');
+  //
+  $.gg=[];
+  //
+  //poi();
+  //poi2();
+  poi191022();
+});
+function poi191022(){
+	//console.log( 'poi191022()' );
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET","./-.txt", true);
+	xhr.onreadystatechange = function(){
+	  if(xhr.readyState==4){
+		if(xhr.status==200){
+			allText = xhr.responseText;
+			//console.log( allText );
+			poi191022b( allText );
+		}
+	  }
+
+	};
+	xhr.send();
+}//poi191022()
+
+function poi191022b( str ){
+	//console.log( 'poi191022b()' );
+	console.log( str );
+	//var str='';
+	str = str.replace(/\r\n/g, "\n");
+	str = str.split("\n"); //以行分割
+	var FFF='';
+	str=str.filter(function(item,index){
+		var aa=item.endsWith(".jpg");
+		if(aa){return true;}
+		var aa=item.endsWith(".png");
+		if(aa){return true;}
+		var aa=item.endsWith(".gif");
+		if(aa){return true;}
+		return false;
+	});
+	console.log( str );
+	var FFF='';
+	str.forEach(function(element,index) {
+		poi(element,index);
+	});
+}//poi191022b( str )
+
+
+
+
+
+function poi(in1,in2){
+var str=`
+<img width="300" height="300" src="./${in1}" alt="${in2}" title="${in2}"/>
+`;
+	//console.log(str);
+	$('#ddd').append(str);
+}
+
+</script>
+
+</head>
+<body>
+<div id="ddd"></div>
+</body>
+</html>
