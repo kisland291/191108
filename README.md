@@ -1,4 +1,6 @@
 # 粗乃丸
+將島民分享的粗乃丸圖包 花點時間上傳到github
+
 #### [首頁](https://kisland291.github.io/191108/)
 
 ## [191107島民分享的圖包](https://web.archive.org/web/20191109030428/http://sora.komica.org/00/pixmicat.php?res=16559122)
