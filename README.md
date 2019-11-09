@@ -1,5 +1,5 @@
 # 粗乃丸
-#### [首頁](https://github.com/kland921/191108)
+#### [首頁](https://kland921.github.io/191108/)
 
 + [這是gif分類](./01gif/index.htm)
 + [感覺是雜圖](./02etc/index.htm)
