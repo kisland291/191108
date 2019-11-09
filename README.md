@@ -12,8 +12,8 @@
 
 
 ## 180504島民分享的圖包
-+ [gif分類](./_180504gif/index.htm)
++ [gif分類](./180504gif/index.htm)
 + jpg分類
-  + [粗乃丸1](./_180504_jpg01/index.htm)
+  + [粗乃丸1](./180504_jpg01/index.htm)
   
 
